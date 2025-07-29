@@ -77,3 +77,13 @@
 # print(3 or 0)  # 3, 3이 True로 평가되어 3이 출력됨
 # print(0 or 3)  # 3, 0이 False로 평가되어 3이 출력됨
 # print(0 or 0)  # 0, 둘 다 False로 평가되어 0이 출력됨
+# print(f'{1}              {3}') # print안에서 띄어쓰기 하는법
+# print(1, '           ', 3) # print안에서 띄어쓰기 하는법
+# A = ['a', 'b', 'c', 'c', 'a'] # enumerate 사용 예
+# B = [(i, v) for i, v in enumerate(A) if not i % 2]
+# C = [(i, v) if v == 'a' else "불통" for i, v in enumerate(A)]
+# D = [(i, v) for i, v in enumerate(A, start = 5)]
+# print(A)
+# print(B)
+# print(C)
+# print(D)
